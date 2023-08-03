@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:layout_width="420dp"
+        android:layout_height="200dp"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        tools:ignore="MissingConstraints">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_photo"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@mipmap/ic_launcher" />
+
+
+            <TextView
+                android:layout_toRightOf="@+id/iv_photo"
+                android:layout_marginTop="25dp"
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shaxzod Aliyev"
+                android:layout_marginLeft="30dp"
+                android:textSize="30sp"/>
+
+<!--            <TextView-->
+<!--                android:layout_marginTop="7dp"-->
+<!--                android:layout_below="@+id/tv_name"-->
+<!--                android:id="@+id/tv_number"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="+998905838422"-->
+<!--                android:layout_marginLeft="25dp"-->
+<!--                android:textSize="12sp"/>-->
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

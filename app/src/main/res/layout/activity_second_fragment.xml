@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal">
+
+    <ImageView
+        android:layout_marginRight="150dp"
+        android:id="@+id/rasm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/contact"
+        android:textSize="25sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/ism_doimiy"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ismi:"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/ism"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ism_doimiy"
+            android:text="Shaxzod"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/raqam_doimiy"
+            android:layout_below="@+id/ism_doimiy"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raqami:"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/raqam"
+            android:layout_toRightOf="@+id/raqam_doimiy"
+            android:layout_below="@+id/ism"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+99890_583_84_22"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:id="@+id/manzil_doimiy"
+            android:layout_below="@+id/raqam_doimiy"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manzili:"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/manzil"
+            android:layout_toRightOf="@+id/manzil_doimiy"
+            android:layout_below="@+id/raqam"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farg'ona tumani xonqiz qishlog'i!"
+            android:textSize="20sp"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
